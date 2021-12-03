@@ -1,0 +1,62 @@
+.navbar-collapse{
+  justify-content: flex-end;
+}
+.maintext{
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 100px;
+}
+.names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.descriptions{
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+}
+.text_Retriever{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.LINKS{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttonsall{
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.FOOD{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.carousel-item{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.FOOD_all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
