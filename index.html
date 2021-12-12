@@ -3,15 +3,16 @@
 
 <head>
   <title>Using of Bootstrap</title>
-  <meta charset="utf-8"/>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-    <!-- Встановлюю тему <--></-->
+    <!-- Встановлюю тему <-->
+    </-->
     <div class="container-fluid">
       <!-- Створюю контейнер для тексту -->
       <a class="navbar-brand">ALL ABOUT DOGS</a> <!-- бренд сторінки-->
@@ -35,154 +36,222 @@
       </div>
     </div>
   </nav>
-  <div class="row">
-    <!-- Створюю головний контейнер -->
-    <div class="col-md-6 col-lg-6 col-sm-12">
-      <!-- Задаю кількість стовбців, які буде займати заголовок сторінки -->
-      <h2 class="maintext">The Most Popular<br>Dog Breeds of 2020</h2>
-    </div>
-    <div class="col-md-6 col-lg-6 col-sm-12">
-      <!-- Задаю кількість стовбців, які буде займати фото сторінки -->
-      <img src="images/dog_main.png" height="250" width="250" alt="">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Створюю головний контейнер -->
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <!-- Задаю кількість стовбців, які буде займати заголовок сторінки -->
+        <h2 class="maintext">The Most Popular<br>Dog Breeds of 2020</h2>
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <!-- Задаю кількість стовбців, які буде займати фото сторінки -->
+        <img src="images/dog_main.png" height="250" width="250" alt="">
+      </div>
     </div>
   </div>
-  <div class="bg-danger">
-    <!-- Блок для роботи с описом собак, змінюю колір бекграунду за допомогою bootstrap -->
-    <div class="names">
-      <!-- Поділяю назву собак на два блоки -->
-      <div class="Labrador">
-        <!-- Створюю заголовки -->
-        <h3>Labrador Retriever</h3>
+  <div class="container-fluid">
+    <div class="bg-danger">
+      <div class="container-fluid">
+        <div class="names">
+          <!-- Поділяю назву собак на два блоки -->
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="Labrador">
+                <!-- Створюю заголовки -->
+                <h3>Labrador Retriever</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="French">
+                <h3>French Bulldogs</h3><!-- Створюю заголовки -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="French">
-        <h3>French Bulldogs</h3><!-- Створюю заголовки -->
+      <!-- Блок для роботи с описом собак, змінюю колір бекграунду за допомогою bootstrap -->
+      <div class="descriptions">
+        <!-- Створюю опис до заголовків згідно макету -->
+        <div class="">
+          <a>The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog.
+            The
+            sturdy, well-balanced Labrador Retriever can, depending on the sex, stand from 21.5 to 24.5 inches at the shoulder and weigh between 55 to 80 pounds. The dense, hard coat comes in yellow, black, and a luscious chocolate. The head is wide,
+            the eyes glimmer with kindliness, and the thick, tapering 'otter tail' seems to be forever signaling the breed's innate eagerness. Labs are famously friendly</a>
+        </div>
+        <div class="">
+          <a>The one-of-a-kind French Bulldog, with his large bat ears and even disposition, is one of the world's most popular small-dog breeds, especially among city dwellers. The Frenchie is playful, alert, adaptable, and completely irresistible.
+            The French Bulldog resembles a Bulldog in miniature, except for the large, erect 'bat ears' that are the breed's trademark feature. The head is large and square, with heavy wrinkles rolled above the extremely short nose. The body beneath
+            the smooth, brilliant coat is compact and muscular. The bright, affectionate Frenchie is a charmer</a>
+        </div>
+      </div>
+      <div class="names">
+        <h3>Golden Retriever</h3><!-- Створюю заголовки -->
+      </div>
+      <div class="text_Retriever">
+        <!-- Створюю опис до заголовків згідно макету -->
+        <a>The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America's most popular dog breeds. They are serious workers at hunting and field work, as guides for the blind, and in search-and-rescue, enjoy obedience and
+          other competitive events, and have an endearing love of life when not at work. The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with
+          its
+          friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a merry action.</a>
       </div>
     </div>
-    <div class="descriptions">
-      <!-- Створюю опис до заголовків згідно макету -->
-      <div class="">
-        <a>The sweet-faced, lovable Labrador Retriever is America's most popular dog breed. Labs are friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog. The
-          sturdy, well-balanced Labrador Retriever can, depending on the sex, stand from 21.5 to 24.5 inches at the shoulder and weigh between 55 to 80 pounds. The dense, hard coat comes in yellow, black, and a luscious chocolate. The head is wide,
-          the eyes glimmer with kindliness, and the thick, tapering 'otter tail' seems to be forever signaling the breed's innate eagerness. Labs are famously friendly</a>
+
+    <div class="buttonsall">
+      <!-- Контейнер -->
+      <div class="LINKS">
+        <!-- Заголовок для блоку -->
+        <h3>LINKS</h3>
       </div>
-      <div class="">
-        <a>The one-of-a-kind French Bulldog, with his large bat ears and even disposition, is one of the world's most popular small-dog breeds, especially among city dwellers. The Frenchie is playful, alert, adaptable, and completely irresistible.
-          The French Bulldog resembles a Bulldog in miniature, except for the large, erect 'bat ears' that are the breed's trademark feature. The head is large and square, with heavy wrinkles rolled above the extremely short nose. The body beneath
-          the smooth, brilliant coat is compact and muscular. The bright, affectionate Frenchie is a charmer</a>
+      <div class="images">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <a><img src="images/Labrador.jpg" alt="" height="80" width="80"></a><!-- Фото собаки №1 -->
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <a><img src="images/French-Bulldog.jpg" alt="" height="80" width="80"> </a><!-- Фото собаки №2 -->
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <a><img src="images/Golden-Retriever.jpg" alt="" height="80" width="80"> </a><!-- Фото собаки №3 -->
+            </div>
+          </div>
+        </div>
+        <!-- Зробив свій класс фото -->
+      </div>
+      <div class="container-fluid">
+        <div class="buttons">
+          <div class="row">
+            <!-- КНОПКИ -->
+            <!-- За допомогою bootstrap стилізую кнопки, змінюю їм форму та колір -->
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <button type="button" name="button" class="btn btn-primary bg-danger">Labrador</button>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <button type="button" name="button" class="btn btn-primary bg-danger">French Bulldog</button>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <button type="button" name="button" class="btn btn-primary bg-danger">Golden Retriever</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="names">
-      <h3>Golden Retriever</h3><!-- Створюю заголовки -->
-    </div>
-    <div class="text_Retriever">
-      <!-- Створюю опис до заголовків згідно макету -->
-      <a>The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America's most popular dog breeds. They are serious workers at hunting and field work, as guides for the blind, and in search-and-rescue, enjoy obedience and
-        other competitive events, and have an endearing love of life when not at work. The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its
-        friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a merry action.</a>
-    </div>
-  </div>
-  <div class="buttonsall">
-    <!-- Контейнер -->
-    <div class="LINKS">
-      <!-- Заголовок для блоку -->
-      <h3>LINKS</h3>
-    </div>
-    <div class="images">
-      <!-- Зробив свій класс фото -->
-      <a><img src="images/Labrador.jpg" alt="" height="80" width="80"></a><!-- Фото собаки №1 -->
-      <a><img src="images/French-Bulldog.jpg" alt="" height="80" width="80"> </a><!-- Фото собаки №2 -->
-      <a><img src="images/Golden-Retriever.jpg" alt="" height="80" width="80"> </a><!-- Фото собаки №3 -->
-    </div>
-    <div class="buttons">
-      <!-- КНОПКИ -->
-      <!-- За допомогою bootstrap стилізую кнопки, змінюю їм форму та колір -->
-      <button type="button" name="button" class="btn btn-primary bg-danger">Labrador</button>
-      <button type="button" name="button" class="btn btn-primary bg-danger">French Bulldog</button>
-      <button type="button" name="button" class="btn btn-primary bg-danger">Golden Retriever</button>
-    </div>
-  </div>
-  <!-- карусель -->
-  <div id="carouselExampleControls" class="carousel slide bg-danger" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <p>
-          <a><img src="images/Labrador.jpg" height="200" width="200" style="border: 3px;" alt=""></a>
+    <!-- карусель -->
+    <div id="carouselExampleControls" class="carousel slide bg-danger" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p>
+            <a><img src="images/Labrador.jpg" height="200" width="200" style="border: 3px;" alt=""></a>
           <h2>Labrador Retriever</h2>
-        </p>
-        <p>The Labrador Retriever or Labrador is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the independent colony of Newfoundland (now part of Canada), and is named for the Labrador
-          region of that colony. It is among the most commonly kept dogs in several countries, particularly in the Western world.
-          The Labrador is loyal, obedient and playful. It was bred as a sporting and hunting dog, but is widely kept as a companion dog. It may also be trained as a guide or assistance dog, or for rescue or therapy work.[1]
-          In the 1830s, the 10th Earl of Home and his nephews the 5th Duke of Buccleuch and Lord John Scott,[2] imported progenitors of the breed from Newfoundland to Europe for use as gundogs. Another early advocate of these Newfoundland flying dogs
-          was the 2nd Earl of Malmesbury, who bred them for their expertise in waterfowling.[2]</p>
+          </p>
+          <p>The Labrador Retriever or Labrador is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the independent colony of Newfoundland (now part of Canada), and is named for the Labrador
+            region of that colony. It is among the most commonly kept dogs in several countries, particularly in the Western world.
+            The Labrador is loyal, obedient and playful. It was bred as a sporting and hunting dog, but is widely kept as a companion dog. It may also be trained as a guide or assistance dog, or for rescue or therapy work.[1]
+            In the 1830s, the 10th Earl of Home and his nephews the 5th Duke of Buccleuch and Lord John Scott,[2] imported progenitors of the breed from Newfoundland to Europe for use as gundogs. Another early advocate of these Newfoundland flying
+            dogs
+            was the 2nd Earl of Malmesbury, who bred them for their expertise in waterfowling.[2]</p>
+        </div>
+        <div class="carousel-item">
+          <a><img src="images/French-Bulldog.jpg" height="200" width="200" alt=""></a>
+          <h2>French Bulldog</h2>
+          </p>
+          <p>The French Bulldog, French: Bouledogue Français, is a French breed of companion dog or toy dog. It appeared in Paris in the mid-nineteenth century, apparently the result of cross-breeding of Toy Bulldogs imported from England and local
+            Parisian ratters.[4] It is a stocky, compact dog with a friendly, mild-mannered temperament.[5][6]
+            The breed is popular as a pet: in 2020, they were the second-most popular registered dog in the United Kingdom,[7] and the second-most popular AKC-registered dog breed in the United States.[8] They were rated the third-most popular dog in
+            Australia in 2017.[9] In 2019, in the United Kingdom, the French Bulldog had 375 export pedigrees[10] and a total of 33,661 registered dogs.[11] By comparison, the Labrador Retriever had over 36,700 dogs and the Cocker Spaniel fewer than
+            22,000.</p>
+        </div>
+        <div class="carousel-item">
+          <a><img src="images/Golden-Retriever.jpg" height="200" width="200" alt="" style="border: 5px;"></a>
+          <h2>Golden Retriever</h2>
+          </p>
+          <p>A retriever is a type of gun dog that retrieves game for a hunter. Generally gun dogs are divided into three major classifications: retrievers, flushing spaniels, and pointing breeds. Retrievers were bred primarily to retrieve birds or
+            other prey and return them to the hunter without damage; retrievers are distinguished in that nonslip retrieval is their primary function. As a result, retriever breeds are bred for soft mouths and a great willingness to please, learn,
+            and
+            obey. A soft mouth refers to the willingness of the dog to carry game in its mouth without biting into it. "Hard mouth" is a serious fault in a hunting dog and is very difficult to correct. A hard-mouthed dog renders game unpresentable or
+            at worst inedible.
+            The retriever's willingness to please, patient nature and trainability have made breeds such as the Labrador retriever and Golden retriever popular as a disability assistance dog. The outstanding reputation of the retriever has landed
+            both
+            the Labrador and the Golden retriever among the top 10 best dogs for children and families across the world. [1]</p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <a><img src="images/French-Bulldog.jpg" height="200" width="200" alt=""></a>
-        <h2>French Bulldog</h2>
-        </p>
-        <p>The French Bulldog, French: Bouledogue Français, is a French breed of companion dog or toy dog. It appeared in Paris in the mid-nineteenth century, apparently the result of cross-breeding of Toy Bulldogs imported from England and local
-          Parisian ratters.[4] It is a stocky, compact dog with a friendly, mild-mannered temperament.[5][6]
-          The breed is popular as a pet: in 2020, they were the second-most popular registered dog in the United Kingdom,[7] and the second-most popular AKC-registered dog breed in the United States.[8] They were rated the third-most popular dog in
-          Australia in 2017.[9] In 2019, in the United Kingdom, the French Bulldog had 375 export pedigrees[10] and a total of 33,661 registered dogs.[11] By comparison, the Labrador Retriever had over 36,700 dogs and the Cocker Spaniel fewer than
-          22,000.</p>
-      </div>
-      <div class="carousel-item">
-        <a><img src="images/Golden-Retriever.jpg" height="200" width="200" alt="" style="border: 5px;"></a>
-        <h2>Golden Retriever</h2>
-        </p>
-        <p>A retriever is a type of gun dog that retrieves game for a hunter. Generally gun dogs are divided into three major classifications: retrievers, flushing spaniels, and pointing breeds. Retrievers were bred primarily to retrieve birds or
-          other prey and return them to the hunter without damage; retrievers are distinguished in that nonslip retrieval is their primary function. As a result, retriever breeds are bred for soft mouths and a great willingness to please, learn, and
-          obey. A soft mouth refers to the willingness of the dog to carry game in its mouth without biting into it. "Hard mouth" is a serious fault in a hunting dog and is very difficult to correct. A hard-mouthed dog renders game unpresentable or
-          at worst inedible.
-          The retriever's willingness to please, patient nature and trainability have made breeds such as the Labrador retriever and Golden retriever popular as a disability assistance dog. The outstanding reputation of the retriever has landed both
-          the Labrador and the Golden retriever among the top 10 best dogs for children and families across the world. [1]</p>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
     <div class="">
-      <div class="FOOD_all"><!--Створюю класс заголовку для карток-->
-        <h2>FOOD FOR YOUR PET</h2><!--Створюю заголовок для карток-->
+      <div class="FOOD_all">
+        <!--Створюю класс заголовку для карток-->
+        <h2>FOOD FOR YOUR PET</h2>
+        <!--Створюю заголовок для карток-->
       </div>
-      <div class="FOOD"><!--Створюю класс самих карток-->
-        <div class="card text-white bg-danger mb-3" style="width: 18rem;"><!--Підключаю клас card text-white bg-danger mb-3-->
-          <img src="images/hills.jpg" class="card-img-top" alt="..."><!--Вставляю картинку-->
-          <div class="card-body"><!--Клас для тексту в картці-->
-            <h5 class="card-title">Hill's Science Diet</h5><!--ПЗаголовок текста в картці-->
-            <p>Hill's Science Diet Dog Food received a rating of 4.8 out of 5 stars</p><!--Текст в картці-->
-            <a href="#" class="btn btn-primary">COMMENT</a><!--Створюю візуальну кнопку-->
+      <div class="FOOD">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card text-white bg-danger mb-3" style="width: 18rem;">
+                <!--Підключаю клас card text-white bg-danger mb-3-->
+                <img src="images/hills.jpg" class="card-img-top" alt="...">
+                <!--Вставляю картинку-->
+                <div class="card-body">
+                  <!--Клас для тексту в картці-->
+                  <h5 class="card-title">Hill's Science Diet</h5>
+                  <!--ПЗаголовок текста в картці-->
+                  <p>Hill's Science Diet Dog Food received a rating of 4.8 out of 5 stars</p>
+                  <!--Текст в картці-->
+                  <a href="#" class="btn btn-primary">COMMENT</a>
+                  <!--Створюю візуальну кнопку-->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card text-white bg-danger mb-3" style="width: 18rem;">
+                <!--Підключаю клас card text-white bg-danger mb-3-->
+                <img src="images/canin.jpg" class="card-img-top" alt="...">
+                <!--Вставляю картинку-->
+                <div class="card-body">
+                  <!--Клас для тексту в картці-->
+                  <h5 class="card-title">Royal Canin</h5>
+                  <!--Заголовок текста в картці-->
+                  <p>Royal Canin Dog Food received a rating of 4.5 out of 5 stars</p>
+                  <!--Текст в картці-->
+                  <a href="#" class="btn btn-primary">COMMENT</a>
+                  <!--Створюю візуальну кнопку-->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card text-white bg-danger mb-3" style="width: 18rem;">
+                <!--Підключаю клас card text-white bg-danger mb-3-->
+                <img src="images/purina.jpg" class="card-img-top" alt="...">
+                <!--Вставляю картинку-->
+                <div class="card-body">
+                  <!--Клас для тексту в картці-->
+                  <h5 class="card-title">Purina ProPlan</h5>
+                  <!--Заголовок текста в картці-->
+                  <p>Purina ProPlan Dog Food received a rating of 4.2 out of 5 stars</p>
+                  <!--Текст в картці-->
+                  <a href="#" class="btn btn-primary">COMMENT</a>
+                  <!--Створюю візуальну кнопку-->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card text-white bg-danger mb-3" style="width: 18rem;"><!--Підключаю клас card text-white bg-danger mb-3-->
-          <img src="images/canin.jpg" class="card-img-top" alt="..."><!--Вставляю картинку-->
-          <div class="card-body"><!--Клас для тексту в картці-->
-            <h5 class="card-title">Royal Canin</h5><!--Заголовок текста в картці-->
-            <p>Royal Canin Dog Food received a rating of 4.5 out of 5 stars</p><!--Текст в картці-->
-            <a href="#" class="btn btn-primary">COMMENT</a><!--Створюю візуальну кнопку-->
-          </div>
-        </div>
-        <div class="card text-white bg-danger mb-3" style="width: 18rem;"><!--Підключаю клас card text-white bg-danger mb-3-->
-          <img src="images/purina.jpg" class="card-img-top" alt="..."><!--Вставляю картинку-->
-          <div class="card-body"><!--Клас для тексту в картці-->
-            <h5 class="card-title">Purina ProPlan</h5><!--Заголовок текста в картці-->
-            <p>Purina ProPlan Dog Food received a rating of 4.2 out of 5 stars</p><!--Текст в картці-->
-            <a href="#" class="btn btn-primary">COMMENT</a><!--Створюю візуальну кнопку-->
-          </div>
-        </div>
+        <!--Створюю класс самих карток-->
       </div>
     </div>
     <footer class="bg-danger">
       <a>ALL About dogs web site. ALL RIGHTS RESERVED. 2021</a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
